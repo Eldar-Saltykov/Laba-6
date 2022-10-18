@@ -7,12 +7,11 @@ void main()
 {
 	int  years;
 	setlocale(LC_ALL, "RUS");
-	puts("Введите год ");
+	puts("Р’РІРµРґРёС‚Рµ РіРѕРґ ");
 	scanf("%d", &years);
 	if ((years % 4 == 0) && (years % 100 != 0 )|| (years % 400 == 0))
-		printf("високосный год");
+		printf("РІРёСЃРѕРєРѕСЃРЅС‹Р№ РіРѕРґ");
 	else
-		printf("год не високосный");
-
+		printf("РіРѕРґ РЅРµ РІРёСЃРѕРєРѕСЃРЅС‹Р№");
 	
 }
